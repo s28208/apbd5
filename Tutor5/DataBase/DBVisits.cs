@@ -32,7 +32,7 @@ public class DBVisits
         return null;
     }
     
-    public static void DeleteVisit(DateTime date)
+    /*public static void DeleteVisit(DateTime date)
     {
         Visit del = new Visit();
         foreach (Visit tmp in Visits)
@@ -44,5 +44,5 @@ public class DBVisits
         }
 
         Visits.Remove(del);
-    }
+    }*/
 }
